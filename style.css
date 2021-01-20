@@ -1,0 +1,36 @@
+#intro {
+    text-align: center;
+}
+#cal {
+    border-radius: 12px;
+    box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.15);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    max-width: 20em;
+}
+#screen {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    max-width: 20em;
+    height: 58.8px;
+}
+#calcKeys {
+    background-color: white;
+    display: grid;
+    grid-gap: 1.5px;
+    grid-template-columns: repeat(4, 3fr);
+    height: 300px;
+}
+.num {
+    background-color: white;
+}
+.decimal, .clear, .operator {
+    background-color: #eee;
+}
+.equal {
+    background-color: #ff7033;
+    grid-column: -2;
+    grid-row: 2 / span 4;
+  }

@@ -1,0 +1,25 @@
+let numbers = document.querySelectorAll(".num");
+let seven = document.getElementById("7")
+seven.setAttribute("onclick",`addNum(7)`)
+let eight = document.getElementById("8")
+eight.setAttribute("onclick",`addNum(8)`)
+let nine = document.getElementById("9")
+nine.setAttribute("onclick",`addNum(9)`)
+let four = document.getElementById("4")
+four.setAttribute("onclick",`addNum(4)`)
+let five = document.getElementById("5")
+five.setAttribute("onclick",`addNum(5)`)
+let six = document.getElementById("6")
+six.setAttribute("onclick",`addNum(6)`)
+let one = document.getElementById("1")
+one.setAttribute("onclick",`addNum(1)`)
+let two = document.getElementById("2")
+two.setAttribute("onclick",`addNum(2)`)
+let three = document.getElementById("3")
+three.setAttribute("onclick",`addNum(3)`)
+let zero = document.getElementById("0")
+zero.setAttribute("onclick",`addNum(0)`)
+
+function addNum(num) {
+    console.log(num)
+}
