@@ -9,12 +9,26 @@
     margin-top: 2em;
     max-width: 20em;
 }
+#screens {
+    height: 85px;
+    position: relative;
+}
 #screen {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2em;
     max-width: 20em;
     height: 58.8px;
+    text-align: right;
+    bottom: 0;  
+    right: 0;
+    position: absolute;
+    font-size: 3em;
+    padding-right: 8px;
+}
+#smallScreen {
+    height: 25px;
+    text-align: right;
+    font-size: 20px;;
 }
 #calcKeys {
     background-color: white;
@@ -33,4 +47,8 @@
     background-color: #ff7033;
     grid-column: -2;
     grid-row: 2 / span 4;
+  }
+button:active {
+    background: #2980b9;
+    top: 2px;
   }
