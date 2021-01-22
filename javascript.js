@@ -48,6 +48,8 @@ function roundToTwo(num) {
 function addNum(num) {
     if (screen.textContent === "" && equated === false) {
         screen.textContent=`${num}`;    
+    } else if (screen.textContent === "0" && equated == false) {
+        screen.textContent;
     } else if (screen.textContent !== "" && equated == false) {
         screen.textContent = screen.textContent + `${num}`;
     } else if (screen.textContent !== "" && equated == true) {
@@ -202,7 +204,7 @@ function addDec() {
     if (screen.textContent === "") {
         screen.textContent = "0.";
     }
-    else if (screen.textContent !== "" && decimalAdded === false) {
+    else if (screen.textContent !== "" && decimalAdded === false ) {
         screen.textContent += ".";
         decimalAdded = true;
     }
